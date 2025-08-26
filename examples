@@ -1,11 +1,11 @@
 #Output when it finds open ports:
-```bash
+
 ➜  codes python3 my_p_s.py --host 192.168.1.102 --start 0 --end 100
 port 22 is open
 port 80 is open
-```
+
 #Output when all ports are closed:
-```bash
+
 ➜  codes python3 my_p_s.py --host 192.168.1.105 --start 0 --end 100
 No open ports found in this range.
-```
+
